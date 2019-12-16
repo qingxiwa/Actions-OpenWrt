@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: Build OpenWrt
+name: OpenWrt-K2
 
 on: 
   release:
@@ -18,8 +18,8 @@ on:
       - '.config'
 #  schedule:
 #    - cron: 0 8 * * 5
-#  watch:
-#    types: [started]
+  watch:
+    types: [started]
 
 jobs:
   build:
@@ -63,7 +63,7 @@ jobs:
         CONFIG_FILE: '.config'
         DIY_SH: 'diy.sh'
       run: |
-        [ -e files ] && mv files openwrt/files
+        [ -e package ] && mv package openwrt/package
         [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config
         chmod +x $DIY_SH
         cd openwrt
