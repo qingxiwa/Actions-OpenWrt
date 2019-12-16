@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: OpenWrt-K2
+name: OpenWrt-Newifi3
 
 on: 
   release:
