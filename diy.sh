@@ -22,12 +22,6 @@ git clone https://github.com/Ameykyl/luci-app-koolproxyR.git package/mine/luci-a
 # Server酱
 git clone https://github.com/tty228/luci-app-serverchan package/mine/luci-app-serverchan
 
-# SmartDNS
-git clone https://github.com/pymumu/luci-app-smartdns.git package/mine/SmartDNS/luci-app-smartdns
-git clone https://github.com/pymumu/smartdns.git package/mine/SmartDNS/smartdns
-sed -i 's/+luci-compat //g' package/mine/SmartDNS/luci-app-smartdns/Makefile
-sed -i 's/include ../../luci.mk/include $(TOPDIR)/feeds/luci/luci.mk/g' package/mine/SmartDNS/luci-app-smartdns/Makefile
-
 # 硬盘监控
 git clone https://github.com/project-openwrt/luci-app-smartinfo package/mine/luci-app-smartinfo
 mv package/mine/luci-app-smartinfo/luci-dir/applications/luci-app-smartinfo package/mine/luci-app-smartinfo/
