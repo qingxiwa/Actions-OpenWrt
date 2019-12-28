@@ -34,7 +34,10 @@ mv package/mine/luci-app-smartinfo/luci-dir/applications/luci-app-smartinfo pack
 git clone https://github.com/project-openwrt/FileBrowser package/mine/FileBrowser
 
 # 网易云音乐
-git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic.git package/mine/luci-app-unblockneteasemusic
+# git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic.git package/mine/luci-app-unblockneteasemusic
+
+# 网易云音乐GoLang版本
+git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic-go package/mine/luci-app-unblockneteasemusic-go
 
 # 网易云音乐mini
 git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic-mini package/mine/luci-app-unblockneteasemusic-mini
