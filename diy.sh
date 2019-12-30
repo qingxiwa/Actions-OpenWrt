@@ -22,9 +22,6 @@ git clone https://github.com/RealKiro/luci-app-koolproxyR.git package/mine/luci-
 # Server酱
 git clone https://github.com/tty228/luci-app-serverchan package/mine/luci-app-serverchan
 
-# 硬盘监控
-git clone https://github.com/project-openwrt/luci-app-smartinfo package/mine/luci-app-smartinfo
-mv package/mine/luci-app-smartinfo/luci-dir/applications/luci-app-smartinfo package/mine/luci-app-smartinfo/
 
 # ssr-plus-jo
 # git clone https://github.com/Ameykyl/luci-app-ssr-plus-jo.git package/mine/luci-app-ssr-plus-jo/luci-app-ssr-plus-jo
